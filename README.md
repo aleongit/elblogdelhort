@@ -9,7 +9,13 @@ Exemple d'un blog amb PHP natiu amb connexió a MySQL. Ús de sessions, encripta
 🖥️ MySQL
 → Server version: 8.0.28 MySQL Community Server - GPL
 
-🖥️
+🖥️ Apache
 → Apache/2.4.51 OpenSSL/1.1.1l PHP/8.0.12 Server
 
 or XAMPP
+
+## Get Started
+
+- git clone https://github.com/aleongit/elblogdelhort.git
+- load init.sql
+- http://localhost/elblogdelhort/index.php or apache site
