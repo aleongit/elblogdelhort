@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="ca">
+<!-- meta idioma -->
+
+<head>
+  <meta charset="utf-8">
+  <!--meta joc de caràcters -->
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- etiqueta per HTML responsive -->
+  <meta name="description" content="">
+  <meta name="author" content="Aleix Leon amb Bootstrap">
+
+  <title>El Blog de l'Hort - Aleon</title><!-- títol de la web -->
+
+  <link rel="icon" href="assets/img/TOMATO.png" type="image/gif" sizes="16x16"><!-- favicon -->
+
+  <!--bootstrap cdn-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- CSS interns -->
+  <style> </style>
+
+  <!-- estils personalitzats Aleix Leon -->
+  <link href="assets/css/hort.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+
+    <!-- menú superior_________________________________________________________________________ -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">El blog de l'hort</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contacte">Contacte</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#que">Què fem ?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">
+                <!--icona amb vector -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-cone-striped" viewBox="0 0 16 16">
+                  <path
+                    d="M9.97 4.88l.953 3.811C10.158 8.878 9.14 9 8 9c-1.14 0-2.159-.122-2.923-.309L6.03 4.88C6.635 4.957 7.3 5 8 5s1.365-.043 1.97-.12zm-.245-.978L8.97.88C8.718-.13 7.282-.13 7.03.88L6.274 3.9C6.8 3.965 7.382 4 8 4c.618 0 1.2-.036 1.725-.098zm4.396 8.613a.5.5 0 0 1 .037.96l-6 2a.5.5 0 0 1-.316 0l-6-2a.5.5 0 0 1 .037-.96l2.391-.598.565-2.257c.862.212 1.964.339 3.165.339s2.303-.127 3.165-.339l.565 2.257 2.391.598z" />
+                </svg> Botiga Online
+              </a>
+            </li>
+
+          </ul>
+          <span class="navbar-text text-white">V 1.0 DES21</span>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+  <main>
+
+    <!-- carousel __________________________________________________________________________________________ -->
+    <div id="myCarousel" class="carousel slide bg-dark" data-bs-ride="carousel">
+      <!--
+    <ol class="carousel-indicators">
+      <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+      <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+    </ol>-->
+      <div class="carousel-inner ">
+        <div class="carousel-item active">
+          <!--<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>-->
+          <div class="container ">
+            <div class="carousel-caption text-start text-light">
+              <h1 class="display-1">El bloc de l'hort</h1>
+              <h2 class="display-6">Connecting hortalisses </h2>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <!--<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>-->
+          <div class="container">
+            <div class="carousel-caption">
+              <h1 class="display-1">Fruites i verdures trends</h1>
+              <h2 class="display-6">Fes follow a la teva hortalissa preferida</h2>
+              <!--<p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>-->
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <!--<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>-->
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1 class="display-1">Pages@s influencers</h1>
+              <h2 class="display-6">Registra't i canvia el món amb el teu hort</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+
+
+    <!-- menú categories ____________________________________________________ -->
+    <div class="container-fluid">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light rounded" aria-label="Eleventh navbar example">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Categories</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09"
+            aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarsExample09">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Categoria 1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Categoria 2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Categoria 3</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Cerca" aria-label="Search">
+              <button type="submit" class="btn btn-outline-success ">Cerca!</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    </div>
+
+    <!-- contenidor principal _______________________________________________ -->
+
+    <div class="container-fluid p-4">
+      <div class="row ">
+
+        <!-- caixa principal ____________________________________________________ -->
+        <div class="col-md-8 ">
+
+          <!-- Main Content-->
+          <div class="container p-2 mb-2 border">
+            <div class="row justify-content-center">
+              <div class="col-md-10">
+
+                <!-- Post preview-->
+                <div class="post-preview">
+                  <a href="post.html">
+                    <h2 class="post-title">Man must explore, and this is exploration at its greatest</h2>
+                    <h3 class="post-subtitle">Problems look mighty small from 150 miles up</h3>
+                  </a>
+
+                  <img src="assets/img/TOMATO.png" class="rounded w-25 p-3" alt="...">
+
+                  <p class="post-meta">
+                    Posted by
+                    <a href="#!">Start Bootstrap</a>
+                    on September 24, 2021
+                  </p>
+                </div>
+                <!-- Divider-->
+                <hr class="my-4" />
+
+                <!-- Post preview-->
+                <div class="post-preview">
+                  <a href="post.html">
+                    <h2 class="post-title">I believe every human has a finite number of heartbeats. I don't intend to
+                      waste any of mine.</h2>
+                  </a>
+
+                  <img src="assets/img/LLIMONA.png" class="rounded w-25 p-3" alt="...">
+
+                  <p class="post-meta">
+                    Posted by
+                    <a href="#!">Start Bootstrap</a>
+                    on September 18, 2021
+                  </p>
+                </div>
+                <!-- Divider-->
+                <hr class="my-4" />
+
+                <!-- Post preview-->
+                <div class="post-preview">
+                  <a href="post.html">
+                    <h2 class="post-title">Failure is not an option</h2>
+                    <h3 class="post-subtitle">Many say exploration is part of our destiny, but it’s actually our duty to
+                      future generations.</h3>
+                  </a>
+
+                  <img src="assets/img/PASTANAGUES.png" class="rounded w-25 p-3" alt="...">
+
+                  <p class="post-meta">
+                    Posted by
+                    <a href="#!">Start Bootstrap</a>
+                    on July 8, 2021
+                  </p>
+                </div>
+                <!-- Divider-->
+                <hr class="my-4" />
+                <!-- Pager-->
+                <div class="d-flex justify-content-end mb-4"><a class="btn btn-primary mt-3" href="#!">Tots els posts
+                    →</a></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- caixa lateral ____________________________________________________ -->
+        <div class="col-md-4 ">
+
+          <!-- form cerca -->
+          <div class="container p-2 mb-2 border">
+            <h2 class="p-2 bg-light text-dark">Cerca</h2>
+            <form>
+              <div class="form-group md-4 mt-3">
+                <label>Nom</label>
+                <input type="text" class="form-control">
+              </div>
+              <button type="submit" class="btn btn-primary mt-3">Cerca!</button>
+            </form>
+          </div>
+
+          <!-- form login -->
+          <div class="container p-2 mb-2 border">
+            <h2 class="p-2 bg-light text-dark">Identifica't</h2>
+            <small class="form-text text-muted">* MISSATGE ERROR/OK IDENTIFICACIÓ *</small>
+
+            <form method='post' action='FITXER.php'>
+              <div class="form-group md-6 mt-3">
+                <label>Mail</label>
+                <input type="email" class="form-control">
+              </div>
+
+              <div class="form-group md-4 mt-3">
+                <label>Contrasenya</label>
+                <input type="password" class="form-control">
+              </div>
+
+              <button type="submit" class="btn btn-primary mt-3">Login!</button>
+            </form>
+
+          </div>
+
+          <!-- form registre____________________________________________________ -->
+          <div class="container p-2 mb-2 border">
+            <h2 class="p-2 bg-light text-dark">Registra't</h2>
+            <small class="form-text text-muted">* MISSATGE ERROR/OK REGISTRE *</small>
+
+            <form method='post' action='FITXER.php'>
+              <div class="form-row">
+                <div class="form-group md-4 mt-3">
+                  <label>Nom</label>
+                  <input type="text" class="form-control">
+                  <small class="form-text text-muted">* MISSATGE ERROR NOM *</small>
+                </div>
+
+                <div class="form-group md-4 mt-3">
+                  <label>Cognoms</label>
+                  <input type="text" class="form-control">
+                  <small class="form-text text-muted">* MISSATGE ERROR COGNOMS *</small>
+                </div>
+              </div>
+
+              <div class="form-group md-6 mt-3">
+                <label>Mail</label>
+                <input type="email" class="form-control">
+                <small class="form-text text-muted">* MISSATGE ERROR MAIL *</small>
+              </div>
+
+              <div class="form-group md-4 mt-3">
+                <label>Contrasenya</label>
+                <input type="password" class="form-control">
+                <small class="form-text text-muted">* MISSATGE ERROR PASS *</small>
+              </div>
+
+              <div class="form-group mt-3">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox">
+                  <label class="form-check-label">
+                    Accepto les Condicions de Privadesa
+                  </label>
+                </div>
+                <small class="form-text text-muted">* MISSATGE ERROR PRIVADESA *</small>
+              </div>
+
+              <button type="submit" class="btn btn-primary mt-3">Registre!</button>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- formulari contacte __________________________________________________________ -->
+    <div class="container-fluid">
+      <div class="container-fluid p-4 mb-2 border">
+        <h2 id="contacte" class="p-2 bg-dark text-light">Contacte</h2>
+
+        <form>
+          <div class="form-group col-md-4">
+            <label class="pt-3">Motiu</label>
+
+            <select id="inputMotiu" class="form-control">
+              <option selected>Suport tècnic</option>
+              <option>Consulta</option>
+              <option>Crítica constructiva</option>
+              <option>Crística destructiva</option>
+            </select>
+
+          </div>
+          <div class="form-row">
+
+            <div class="form-group col-md-4 mt-3">
+              <label>Nom</label>
+              <input type="text" class="form-control">
+              <small class="form-text text-muted">* MISSATGE ERROR NOM *</small>
+            </div>
+
+          </div>
+          <div class="form-group col-md-6 mt-3">
+            <label>Mail</label>
+            <input type="email" class="form-control">
+            <small class="form-text text-muted">* MISSATGE ERROR MAIL *</small>
+          </div>
+
+          <div class="form-group col-md-6 mt-3">
+            <label>El teu missatge :)</label>
+            <textarea class="form-control" rows="5"></textarea>
+            <small class="form-text text-muted">* MISSATGE ERROR TEXTAREA *</small>
+          </div>
+
+          <div class="form-group mt-3">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox">
+              <label class="form-check-label">
+                Accepto les Condicions de Privadesa
+              </label>
+            </div>
+            <small class="form-text text-muted">* MISSATGE ERROR PRIVADESA *</small>
+          </div>
+          <button type="submit" class="btn btn-primary mt-3">Envia!</button>
+        </form>
+
+      </div>
+    </div>
+
+    <!-- què fem ? ________________________________________________________ -->
+    <div class="container-fluid">
+      <div class="container-fluid p-4 mb-2 border">
+
+        <h2 id="que" class="p-2 bg-dark text-light">Què fem ?</h2>
+        <img src="assets/img/NIDEA.jpg" alt="" class="img-thumbnail p-3">
+
+        <p class="fw-bold pt-3">Fem un blog amb php</p>
+        <ul>
+          <li>Fer un registre en el side-bar</li>
+          <li>Fer login d’usuaris en el side-bar</li>
+          <li>Fer una pàgina d’edició de les dades dels usuaris</li>
+          <li>Fer una secció de creació d’entrades per a usuaris identificats</li>
+          <li>Llistar les entrades en la pàgina d’inici</li>
+          <li>Cal una pàgina d’edició d’entrades per als usuaris autentificats</li>
+          <li>Esborrar les entrades</li>
+          <li>Afegir un cercador d’entrades a la web</li>
+        </ul>
+
+        <!-- Divider-->
+        <hr class="my-4" />
+
+        <p class="fw-bold pt-3">01-Afegir Usuaris</p>
+        <ul>
+          <li>Realitza la maquetació HTML i CSS del blog</li>
+          <li>Fes els includes</li>
+          <li>Fes el formulari de registre</li>
+          <li>Valida el formulari de registre</li>
+          <li>Afegeix usuaris a la BD amb pw amb hash</li>
+          <li>Informa dels errors en cas que n'hi hagi</li>
+          <li>Comprova les altes la taula usuaris de base de dades </li>
+        </ul>
+
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="py-4 bg-dark text-white-50 p-3">
+      <h5 class="float-end"><a class="btn btn-primary" href="#" role="button">Puja</a></h5>
+      <h5>&copy; 2021-22 Aleix Leon - El Blog de l'hort - <a class="link-light" href="mailto:hola@elblogdelhort.com">
+          hola@elblogdelhort.com </a> &middot; <a class="link-light" href="#">Privacitat</a> &middot; <a
+          class="link-light" href="#">Termes i Condicions</a></h5>
+    </footer>
+
+  </main>
+
+</body>
+
+</html>
