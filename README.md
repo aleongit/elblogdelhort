@@ -19,3 +19,13 @@ or XAMPP
 - git clone https://github.com/aleongit/elblogdelhort.git
 - load init.sql
 - http://localhost/elblogdelhort/index.php or apache site
+- user: pepet@gmail.com Blog1234*
+- user: pepeta@gmail.com Blog1234*
+- or Register
+
+
+![Screenshot](screenshots/1.png)
+
+![Screenshot](screenshots/2.png)
+
+![Screenshot](screenshots/3.png)
