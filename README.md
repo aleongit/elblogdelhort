@@ -17,7 +17,8 @@ or XAMPP
 ## Get Started
 
 - git clone https://github.com/aleongit/elblogdelhort.git
-- load init.sql
+- cd elblogdelhort
+- run **init.sql**
 - http://localhost/elblogdelhort/index.php or apache site
 - user: pepet@gmail.com Blog1234*
 - user: pepeta@gmail.com Blog1234*
